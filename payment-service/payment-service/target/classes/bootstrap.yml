@@ -1,0 +1,6 @@
+#to make this service talk to cloud config server so that it can get all the commom configurations. bootstrap.yml file loads first so keep necessary configurations here
+spring:
+  cloud:
+    config:
+      uri:
+        - http://localhost:9196
