@@ -1,0 +1,12 @@
+server:
+  port: 9194
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: ORDER-SERVICE
+logging:
+  file: C:/Users/razia/CodeBase/LogFiles/ELK-Stack.log
+
+
